@@ -1,0 +1,25 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="productDAO" class="com.ecomCMS.DAO.ProductDAOImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="categoryDAO" class="com.ecomCMS.DAO.CategoryDAOImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<bean id="userDAO" class="com.ecomCMS.DAO.UserDAOImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="settingsDAO" class="com.ecomCMS.DAO.SettingsDAOImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="salesDAO" class="com.ecomCMS.DAO.ProductSaleDAOImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+</beans>

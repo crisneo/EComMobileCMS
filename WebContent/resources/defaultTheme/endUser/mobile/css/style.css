@@ -1,0 +1,34 @@
+
+
+/***** footer menu*****/
+
+    .footermenu {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    list-style-type: none;
+    }
+     
+    .footermenu li {
+    display: inline;
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #FFFFFF;
+    font-size:10px;
+    text-decoration:none;
+    color: white;
+    }
+     
+    .footermenu li:last-child {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+    
+    .footermenu li a{
+    	color:white;
+    	text-decoration:none;
+    	font-size:10px;
+    	
+    }
+/**********************/
